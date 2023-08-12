@@ -8,6 +8,27 @@ html {
   }
 }
 
+.card_event {
+    border: 3px solid;
+    background-color: gray;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.button_card {
+    width: 50%;
+    height: 50%;
+    background: none;
+    border: none;
+
+}
+
+.card_event:hover {
+    box-shadow: 10px 10px 5px black;
+    transition: 0.5s; 
+}
+
+
 html {
   position: relative;
   min-height: 100%;
