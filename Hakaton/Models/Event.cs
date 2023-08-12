@@ -1,7 +1,10 @@
-﻿namespace Hakaton.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Hakaton.Models
 {
     public class Event
     {
+        [Key]
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime DateStart { get; set; }
